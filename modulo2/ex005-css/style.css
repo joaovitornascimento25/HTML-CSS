@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
+
+
+
+
+body{
+text-align: justify;
+background-color:#022b15 ;
+}
+  main{
+border-radius: 12px;
+background-color: white;
+width: 600px;
+margin: auto;
+padding: 12px;
+box-shadow: 15px 15px 17px #02180b
+
+
+  }  
+
+
+ h2 {
+color:#046d01;
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 14px;
+}
+
+  
+h1{  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 14px;
+  color: #027368;
+
+}
+
+    
+
+h2#a{
+ font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 14px;
+color: #e40a0a;
+}
+
+
+
+
+
+a{
+    color:rgb(243, 6, 6);
+    font-size: 30px;
+}
+.a{
+  color: #d1ce0e;
+}
+.b{
+  color:#0ea4d1;
+
+}
+.c{
+  color: #d10eb7;
+}
