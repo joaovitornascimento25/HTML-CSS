@@ -82,13 +82,14 @@ main{
 }
 
 div{
-display: inline-block;
+    display: inline-block;
 }
 h5{
     color: #4203ffcc;
 }
 
 .jogo1{
+    display: block;
     background-color: #240581;
     padding: 15px;
     width: 200px;
@@ -100,7 +101,7 @@ h5{
   
 }
 .jogo2{
-    
+    display: block;
     background-color: #240581;
     padding: 15px;
     width: 200px;
@@ -114,13 +115,14 @@ h5{
 }
 
 .jogo3{
+    display: block;
     background-color: #240581;
     padding: 15px;
     width: 200px;
     height:  88px;
     color:white;
     font-weight: normal;
-    margin-top: px;
+    margin-top: 20px;
     border-radius: 10px;
     margin-left: 15px;
 }
