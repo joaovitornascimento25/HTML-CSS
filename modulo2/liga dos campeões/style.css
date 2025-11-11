@@ -83,49 +83,25 @@ main{
 
 div{
     display: inline-block;
+    margin: auto;
 }
 h5{
     color: #4203ffcc;
 }
 
 .jogo1{
-    display: block;
+    
     background-color: #240581;
     padding: 15px;
-    width: 200px;
-    height:  88px;
+    width: 150px;
+    height:  100px;
     color:white;
     font-weight: normal;
     margin-top: -20px;
     border-radius: 10px;
   
 }
-.jogo2{
-    display: block;
-    background-color: #240581;
-    padding: 15px;
-    width: 200px;
-    height:  88px;
-    color:white;
-    font-weight: normal;
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-left: 15px;
 
-}
-
-.jogo3{
-    display: block;
-    background-color: #240581;
-    padding: 15px;
-    width: 200px;
-    height:  88px;
-    color:white;
-    font-weight: normal;
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-left: 15px;
-}
 
 h5:hover{
      color: white;
