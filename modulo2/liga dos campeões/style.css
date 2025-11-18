@@ -75,31 +75,43 @@ nav{
 
 main{
    
-    margin-top: 30px ;
-    min-width: 320px;
-    max-width: 100%;
-    padding: 15px;
+    
 }
 
+.conterner{
+   
+    background-image: url(img/haland.webp);
+    background-position: center;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    display: block;
+    min-width:320px ;
+    max-width: 950px;
+    height: 500px;
+    border-radius: 12px;
+   padding: 30px;
+}
 div{
-    display: inline-block;
-    margin: auto;
+  
+
+
 }
 h5{
     color: #4203ffcc;
 }
 
 .jogo1{
-    
+    display: block;
+    display: inline-block;
     background-color: #240581;
     padding: 15px;
     width: 150px;
-    height:  100px;
+    height:  350px;
     color:white;
     font-weight: normal;
-    margin-top: -20px;
     border-radius: 10px;
-  
+    margin-left: 82%;
+   
 }
 
 
