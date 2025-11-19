@@ -22,6 +22,7 @@ header{
 height: 159px;
 background-color: white;
 text-align: right;
+margin-bottom: 30px;
 }
 
 header>img{
@@ -74,28 +75,43 @@ nav{
 }
 
 main{
-   
-    
+    height: 100%;
+  max-width: 80%; 
+  min-width: 320px;
+  background-color: rgba(0, 0, 0, 0.171);
+  margin: auto;
+  padding-top: 20px;
+  border-radius: 12px;
 }
 
 .conterner{
+background-image: url(img/haland.webp);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+ max-width:950px ;  
+ min-width: 320px;
+ height: 400px; 
+ padding-top: 150px;
+ margin: auto;
+ border-radius: 12px;
+ box-shadow: 8px 8px 15px #15064177;
+}
+.conterner>h3{
+color: white;
+margin-top: 260px;
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.397);
+}
    
-    background-image: url(img/haland.webp);
-    background-position: center;
-    margin-right: 100px;
-    background-repeat: no-repeat;
-    display: block;
-    min-width:320px ;
-    max-width: 950px;
-    height: 500px;
-    border-radius: 12px;
-   padding: 30px;
-}
 div{
-  
+margin-left: 20px;
+margin-bottom: 15px;
+box-shadow:7px 7px 13px #15064167;
+}   
 
-
-}
 h5{
     color: #4203ffcc;
 }
@@ -106,14 +122,35 @@ h5{
     background-color: #240581;
     padding: 15px;
     width: 150px;
-    height:  350px;
+    height:  100px;
+    color:white;
+    font-weight: normal;
+    border-radius: 10px;      
+}
+
+.jogo2{
+    display: block;
+    display: inline-block;
+    background-color: #240581;
+    padding: 15px;
+    width: 150px;
+    height:  100px;
+    color:white;
+    font-weight: normal;
+    border-radius: 10px;  
+}
+
+.jogo3{
+    display: block;
+    display: inline-block;
+    background-color: #240581;
+    padding: 15px;
+    width: 150px;
+    height:  100px;
     color:white;
     font-weight: normal;
     border-radius: 10px;
-    margin-left: 82%;
-   
 }
-
 
 h5:hover{
      color: white;
