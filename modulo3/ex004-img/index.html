@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas </title>
+    <header><h1>tabelas</h1></header><hr>
+</head>
+
+<style>
+    table{
+        margin: auto;
+        min-width: 320px;
+        max-width: 700px;
+    }
+    thead{
+        background-color: darkgrey;
+        color: white;
+        font-size: 30px;   
+    }
+    td{
+        border: 1px solid black;
+        padding: 10px;        
+    }
+    .rep{
+        text-align: right;
+    }
+    tfoot{
+        background-color: black;
+        color: white;
+    }
+    tbody>tr:nth-child(2n) {
+        background-color: rgba(148, 185, 197, 0.295);
+
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <th>costas</th>
+            <th >series</th>                                     
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>puxada aberta</td>
+                <td class="rep">4 series</td>
+            </tr>
+            <tr>
+                <td>remada na maquina</td>
+                <td class="rep">4 series</td>
+            </tr>
+            <tr>
+                <td>remada alta</td>
+                <td class="rep"> 4 series</td>
+            </tr>
+            <tr>
+                <td>remada baixa com barra</td>
+                <td class="rep">4 series</td>
+            </tr>
+        </tbody>
+
+       <thead>
+        <th>peitoral</th>
+        <th>series</th>
+       </thead>
+
+       <tbody>
+           <tr>
+            <td>supino inclinado</td>
+            <td class="rep">4 series</td>
+           </tr>
+           
+                 <tr>
+            <td>supino reto</td>
+            <td class="rep">4 series</td>
+                 </tr>
+           
+                 <tr>
+            <td>cros polia alta</td>
+            <td class="rep">4 series</td>
+                 </tr>
+           
+                 <tr>
+            <td>voador</td>
+            <td class="rep">4 series</td>
+                 </tr>
+       </tbody>
+
+      <tfoot>
+        <th>fim do</th> 
+        <th>trino</th>
+      </tfoot>
+
+    </table>
+    
+</body>
+</html>
