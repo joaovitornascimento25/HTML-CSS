@@ -13,10 +13,16 @@
         min-width: 320px;
         max-width: 700px;
     }
+   
     thead{
         background-color: darkgrey;
         color: white;
         font-size: 30px;   
+    }
+    .cabeça{
+        position: sticky;
+        top: 0px;
+        background-color: black;
     }
     td{
         border: 1px solid black;
@@ -36,9 +42,10 @@
 </style>
 <body>
     <table>
+        
         <thead>
-            <th>costas</th>
-            <th >series</th>                                     
+            <th class="cabeça">costas</th>
+            <th class="cabeça">series</th>                                     
         </thead>
 
         <tbody>
@@ -85,7 +92,7 @@
             <td>voador</td>
             <td class="rep">4 series</td>
                  </tr>
-       </tbody>
+       </tbody>      
 
       <tfoot>
         <th>fim do</th> 
@@ -93,6 +100,6 @@
       </tfoot>
 
     </table>
-    
+     
 </body>
 </html>
